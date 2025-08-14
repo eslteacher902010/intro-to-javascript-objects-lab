@@ -487,7 +487,7 @@ Solve Exercise 21 here:
 
 const byNewType = {};
 
-pokemon.forEach(p => {
+pokemon.forEach(p => {//p=pokemon array
   if (byNewType[p.type]) {
     // old array
   } else {
